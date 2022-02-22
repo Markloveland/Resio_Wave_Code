@@ -1,0 +1,10 @@
+      PARAMETER (IDMN=49, JDMN=35, IF=20, IA=16, NOBPTS= 1,NBN=1)
+
+
+C some notes
+
+c idmn must be greater or equal to the number of columns (E-W) in grid
+c jdmn must be greater or equal to the number of rows (N-S) in grid
+c IF   must be greater or equal to the number of frequencies in spectrum
+C IA   must be greater or equal to the number of angles in spectrum   
+c keep last two parameters = 1
